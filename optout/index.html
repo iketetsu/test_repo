@@ -49,6 +49,8 @@ xml:lang="en" lang="ja">
       dataType: 'jsonp',
       cache: false,
       success: function(data) {
+        var time = new Date().getTime();
+        while (new Date().getTime() < time + 1000);
         location.reload();
     }});
   }
@@ -59,6 +61,8 @@ xml:lang="en" lang="ja">
       dataType: 'jsonp',
       cache: false,
       success: function(data) {
+        var time = new Date().getTime();
+        while (new Date().getTime() < time + 1000);
         location.reload();
     }});
   }
